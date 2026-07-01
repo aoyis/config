@@ -1,0 +1,27 @@
+{
+    "window.zoomLevel": -1,
+    "editor.fontSize": 13,
+    "editor.fontFamily": "'Fira Code', Menlo, Consolas",
+    "workbench.colorTheme": "Dark Modern",
+    "window.newWindowDimensions": "inherit",
+    "workbench.panel.defaultLocation": "right",
+    "editor.parameterHints.enabled": true, 
+    "editor.parameterHints.cycle": true,
+
+    "vim.hlsearch": true, 
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {"before": ["k", "j"], "after": ["<Esc>"]},
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {"before": ["<C-l>"], "commands": [":nohlsearch"]},
+    ],
+
+    "remote.SSH.remotePlatform": {
+        "xxx.xxx.xxx.xxx": "linux",
+    },
+    "remote.SSH.useFlock": false,
+    "remote.SSH.lockfilesInTmp": true,
+
+    "hediet.vscode-drawio.resizeImages": null
+}
