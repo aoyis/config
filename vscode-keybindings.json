@@ -5,5 +5,17 @@
     {
         "key": "ctrl+shift+j",
         "command": "workbench.action.toggleMaximizedPanel"
-    }
+    },
+    { 
+        "key": "enter", "command": "acceptSelectedSuggestion",
+        "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+    },
+    { 
+        "key": "tab", "command": "selectNextSuggestion",
+        "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+    },
+    { 
+        "key": "shift+tab", "command": "selectPrevSuggestion",
+        "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+    },
 ]

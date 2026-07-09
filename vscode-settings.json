@@ -2,6 +2,7 @@
     "window.zoomLevel": -1,
     "editor.fontSize": 13,
     "editor.fontFamily": "'Fira Code', Menlo, Consolas",
+    "editor.acceptSuggestionOnEnter": "on",
     "workbench.colorTheme": "Dark Modern",
     "window.newWindowDimensions": "inherit",
     "workbench.panel.defaultLocation": "right",
