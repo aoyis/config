@@ -24,5 +24,8 @@
     "remote.SSH.useFlock": false,
     "remote.SSH.lockfilesInTmp": true,
 
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.initialHint": false,
+
     "hediet.vscode-drawio.resizeImages": null
 }

@@ -18,4 +18,6 @@
         "key": "shift+tab", "command": "selectPrevSuggestion",
         "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
     },
+    {"key": "ctrl+alt+-", "command": "editor.foldRecursively"},
+    {"key": "ctrl+alt+=", "command": "editor.unfoldAll"},
 ]
