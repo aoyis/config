@@ -27,5 +27,8 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "terminal.integrated.initialHint": false,
 
+    "python.analysis.indexing": true,
+    "python.analysis.autoImportCompletions": true,
+
     "hediet.vscode-drawio.resizeImages": null
 }
