@@ -12,14 +12,14 @@
     "vim.hlsearch": true, 
     "vim.useSystemClipboard": true,
     "vim.insertModeKeyBindings": [
-        {"before": ["k", "j"], "after": ["<Esc>"]},
+        {"before": ["k", "j"], "after": ["<Esc>"]}
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
-        {"before": ["<C-l>"], "commands": [":nohlsearch"]},
+        {"before": ["<C-l>"], "commands": [":nohlsearch"]}
     ],
 
     "remote.SSH.remotePlatform": {
-        "xxx.xxx.xxx.xxx": "linux",
+        "xxx.xxx.xxx.xxx": "linux"
     },
     "remote.SSH.useFlock": false,
     "remote.SSH.lockfilesInTmp": true,
