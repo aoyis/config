@@ -7,6 +7,9 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
+# Typeset PATH 
+typeset -U path
+
 # Run fastfetch on launch
 source ~/.pokefetch
 
