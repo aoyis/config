@@ -11,7 +11,7 @@ eval "$(pyenv virtualenv-init -)"
 typeset -U path
 
 # Run fastfetch on launch
-source ~/.pokefetch
+pokefetch
 
 # Reveal executed alias
 _aliases="$(alias -Lr 2>/dev/null || alias)"

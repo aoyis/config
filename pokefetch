@@ -1,3 +1,5 @@
+#!/usr/bin/zsh
+
 # fetcher
 FETCHER="fastfetch --logo none"
 FETCHER_HEIGHT=$(${=FETCHER} | wc -l)
