@@ -1,7 +1,7 @@
 {
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -0.2,
     "editor.fontSize": 13,
-    "editor.fontFamily": "'Fira Code', Menlo, Consolas",
+    "editor.fontFamily": "'Fira Code Retina', monospace",
     "editor.acceptSuggestionOnEnter": "on",
     "workbench.colorTheme": "Dark Modern",
     "window.newWindowDimensions": "inherit",
